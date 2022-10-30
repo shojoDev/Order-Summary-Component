@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', "Sans Serif";
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -10%;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin: 1.0666rem;
+}
+
+.listen {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    padding: 0 1.25rem 1.0666rem 1.25rem;
+}
+
+.main {
+    background-color: hsl(228, 100%, 99%);
+    border-radius: 1.25rem;
+    box-shadow: 1px 8px 15px hsl(225, 100%, 90%);
+    width: 25rem;
+    height: 36rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero {
+    width: 100%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 2.7rem;
+    padding: 1rem 6rem;
+    border-radius: .625rem;
+}
+
+.annual-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.S9 {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.change:active {
+    color: hsl(245, 61%, 56%);
+}
+
+.proceed {
+    border-radius: .625rem;
+    background-color: hsl(245, 75%, 52%);
+    color: rgb(255, 255, 255);
+    margin: 1rem 0.5rem;
+    padding: .6rem 6rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 10px 8px hsl(225, 100%, 94%);
+}
+
+.proceed:active {
+    background-color: hsl(245, 61%, 56%);
+}
+
+.cancel {
+    font-weight: 700;
+    font-size: .7rem;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+
+}
+
+.cancel:active {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    font-size: .625rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
