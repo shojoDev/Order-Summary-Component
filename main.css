@@ -12,7 +12,7 @@ body {
     background-image: url('./images/pattern-background-desktop.svg');
     /* background-repeat: no-repeat; */
     background-repeat: repeat-x;
-    /* repeat suggestion by @AdrianoEscarabote */
+    /*repeat suggestion by @AdrianoEscarabote*/
     background-size: contain;
     background-position-y: -30%;
     min-height: 100vh;
@@ -53,7 +53,7 @@ h1 {
     margin-bottom: 1.25rem;
 }
 
-
+/* 
 .plan {
     background-color: hsl(225, 100%, 98%);
     display: flex;
@@ -67,7 +67,7 @@ h1 {
 .parentFlexContainer {
     display: flex;
     justify-content: space-between;
-    row-gap: 10px;
+    margin: 0 3rem;
 }
 
 .annual-plan {
@@ -90,6 +90,32 @@ h1 {
 
 .change:active {
     color: hsl(245, 61%, 56%);
+}
+ */
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 2.5rem;
+    padding: 1rem 2rem;
+    border-radius: .625rem;
+}
+
+.annual {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.S9 {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.change:active {
+    color: hsl(245, 61%, 56%);
+    text-decoration: none;
 }
 
 .proceed {
